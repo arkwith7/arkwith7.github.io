@@ -1,1 +1,81 @@
-theme: jekyll-theme-leap-day
+# Site settings
+
+author: ARKWITH
+email: arkwith7@email.com
+twitter_username:
+github_username:  arkwith7
+googleplus_username:
+
+head-title: ARKWITH Tech
+company: ARKWITH
+title: Tech Blog
+
+baseurl: ""    # the subpath of your site, "/blog"
+url: "https://arkwith7.github.io/"
+
+# footer 
+description: "In him the whole building is joined together and rises to become a holy temple in the Lord. And in him you too are being built together to become a dwelling in which God lives by his Spirit.
+(Ephesians 2:21-22)"
+
+favo: "개발자들과 함께 지금보다 더 좋은 세상을 만들기 위해 노력합니다."
+descrpt:  |
+  오픈소스를 활용한 긱 경제(Gig Economy)의 참여자이며, 구현자입니다.
+
+
+#
+# Build settings
+#
+
+#exclude: [vendor]
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  highlight: true
+  auto_ids:  true
+
+sass:
+  style: compressed
+
+permalink: /posts/:categories/:title.html
+
+paginate: 7
+#paginate_path: 'page/:num'
+
+# Disqus Comments
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  shortname: arkwith7
+
+gems: [jekyll-paginate, jekyll-last-modified-at, jemoji]
+
+# added Plugins by phs, 2020.10.16
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+#
+# Custom
+#
+
+# Color
+# All css class, see: http://materializecss.com/color.html
+header-color: "purple darken-2" # #4a148c purple darken-4
+head-theme-color: "#5c6bc0"     # "" MUST in hex format, may the same as header-color. This color is for android chrome browser.
+
+footer-color: "purple darken-2"
+footer-button-color: "purple darken-4"
+footer-link-color: "red-text text-accent-1"
+
+share-button-color: "pink"
+share-button-small-color: ""
+
+
+##
+#excerpt_separator: <!-- excerpt_end -->       # for post.excerpt
+

@@ -1,0 +1,17 @@
+# **NOTE**
+# 1. Empty strings are truthy.
+
+# - id: tab-test
+#   name: RPA
+#   fp: tab/test.html
+#   disabled: false
+
+# - id: tab-test1
+#   name: ChatBot
+#   fp: tab/test1.html
+#   disabled: false
+
+# - id: tab-test2
+#   name: OCR
+#   fp: tab/test1.html
+#   disabled: false
