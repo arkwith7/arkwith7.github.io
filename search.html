@@ -1,0 +1,38 @@
+---
+layout: page
+title: Search
+permalink: /search/
+---
+<!--
+<form action="" method="get">
+  <div class="search">
+    <input type="text" id="search-box" name="query" size="small">
+    <input type="submit" value="Search">
+  </div>
+</form>
+<ul id="search-results" class="search-results"></ul>
+
+<style>
+  .search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+</style>
+-->
+<form action="" method="get">
+  <div class="search" style="display:flex; flex-direction: row; justify-content: center; align-items: center">
+    <input type="text" id="search-box" name="query" placeholder="Search for...">
+    <span>
+      <button class="btn btn-default" type="submit" aria-label="Search">
+        <i class="mdi mdi-magnify" aria-hidden="true"></i>
+      </button>
+    </span>
+  </div>
+</form>
+<ul id="search-results" class="search-results"></ul>
+
+<script src="/js/search-content.js"></script>
+<script src="/js/lunr.js"></script>
+<script src="/js/search.js"></script>
